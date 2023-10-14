@@ -1,0 +1,14 @@
+D:\Java\ProjectIdea\ITM_Space\Microservices\Task3.1.2\src\main\java\com\it\mentor\org\springbootsecuritydemo\repositories\PeopleRepository.java
+D:\Java\ProjectIdea\ITM_Space\Microservices\Task3.1.2\src\main\java\com\it\mentor\org\springbootsecuritydemo\services\RegistrationService.java
+D:\Java\ProjectIdea\ITM_Space\Microservices\Task3.1.2\src\main\java\com\it\mentor\org\springbootsecuritydemo\services\PersonDetailsService.java
+D:\Java\ProjectIdea\ITM_Space\Microservices\Task3.1.2\src\main\java\com\it\mentor\org\springbootsecuritydemo\util\PersonValidator.java
+D:\Java\ProjectIdea\ITM_Space\Microservices\Task3.1.2\src\main\java\com\it\mentor\org\springbootsecuritydemo\models\Person.java
+D:\Java\ProjectIdea\ITM_Space\Microservices\Task3.1.2\src\main\java\com\it\mentor\org\springbootsecuritydemo\models\Role.java
+D:\Java\ProjectIdea\ITM_Space\Microservices\Task3.1.2\src\main\java\com\it\mentor\org\springbootsecuritydemo\services\AdminService.java
+D:\Java\ProjectIdea\ITM_Space\Microservices\Task3.1.2\src\main\java\com\it\mentor\org\springbootsecuritydemo\controllers\AuthController.java
+D:\Java\ProjectIdea\ITM_Space\Microservices\Task3.1.2\src\main\java\com\it\mentor\org\springbootsecuritydemo\security\PersonDetails.java
+D:\Java\ProjectIdea\ITM_Space\Microservices\Task3.1.2\src\main\java\com\it\mentor\org\springbootsecuritydemo\config\SuccessUserHandler.java
+D:\Java\ProjectIdea\ITM_Space\Microservices\Task3.1.2\src\main\java\com\it\mentor\org\springbootsecuritydemo\config\SecurityConfig.java
+D:\Java\ProjectIdea\ITM_Space\Microservices\Task3.1.2\src\main\java\com\it\mentor\org\springbootsecuritydemo\controllers\PersonController.java
+D:\Java\ProjectIdea\ITM_Space\Microservices\Task3.1.2\src\main\java\com\it\mentor\org\springbootsecuritydemo\Application.java
+D:\Java\ProjectIdea\ITM_Space\Microservices\Task3.1.2\src\main\java\com\it\mentor\org\springbootsecuritydemo\controllers\AdminController.java

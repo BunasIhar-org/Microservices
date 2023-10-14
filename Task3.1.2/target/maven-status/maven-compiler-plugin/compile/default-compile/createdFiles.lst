@@ -1,0 +1,14 @@
+com\it\mentor\org\springbootsecuritydemo\services\PersonDetailsService.class
+com\it\mentor\org\springbootsecuritydemo\models\Person.class
+com\it\mentor\org\springbootsecuritydemo\config\SecurityConfig.class
+com\it\mentor\org\springbootsecuritydemo\util\PersonValidator.class
+com\it\mentor\org\springbootsecuritydemo\controllers\AdminController.class
+com\it\mentor\org\springbootsecuritydemo\services\RegistrationService.class
+com\it\mentor\org\springbootsecuritydemo\models\Role.class
+com\it\mentor\org\springbootsecuritydemo\Application.class
+com\it\mentor\org\springbootsecuritydemo\config\SuccessUserHandler.class
+com\it\mentor\org\springbootsecuritydemo\repositories\PeopleRepository.class
+com\it\mentor\org\springbootsecuritydemo\services\AdminService.class
+com\it\mentor\org\springbootsecuritydemo\controllers\AuthController.class
+com\it\mentor\org\springbootsecuritydemo\controllers\PersonController.class
+com\it\mentor\org\springbootsecuritydemo\security\PersonDetails.class

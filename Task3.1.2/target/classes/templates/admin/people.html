@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>People page</title>
+</head>
+<body>
+<div th:align="center">
+    <h2>People Manager</h2>
+    <table th:border="1" th:cellpadding="5">
+        <tr>
+            <th>ID</th>
+            <th>Username</th>
+            <th>Email</th>
+            <th>Password</th>
+            <th>Roles</th>
+            <th>Action</th>
+        </tr>
+        <th:block th:each="person : ${people}">
+            <tr>
+                <td th:text="${person.id}"></td>
+                <td th:text="${person.username}"></td>
+                <td th:text="${person.email}"></td>
+                <td th:text="${person.password}"></td>
+                <td th:text="${person.roles}"></td>
+                <td>
+                    <a th:href="@{/admin/edit(id=${person.id})}">Edit</a>
+
+                    <a th:href="@{/admin/delete(id=${person.id})}">Delete</a>
+                </td>
+            </tr>
+        </th:block>
+    </table>
+    <br/>
+    <form th:action="@{/logout}" th:method="POST">
+        <input type="submit" value="Logout"/>
+    </form>
+</div>
+</body>
+</html>
