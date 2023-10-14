@@ -1,0 +1,7 @@
+com\it\mentor\org\springbootcrud\service\UserService.class
+com\it\mentor\org\springbootcrud\Application.class
+com\it\mentor\org\springbootcrud\dao\UserDao.class
+com\it\mentor\org\springbootcrud\model\User.class
+com\it\mentor\org\springbootcrud\controller\UserController.class
+com\it\mentor\org\springbootcrud\dao\UserDaoImpl.class
+com\it\mentor\org\springbootcrud\service\UserServiceImpl.class
