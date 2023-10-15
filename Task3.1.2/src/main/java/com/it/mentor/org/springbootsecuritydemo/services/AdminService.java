@@ -3,7 +3,6 @@ package com.it.mentor.org.springbootsecuritydemo.services;
 import com.it.mentor.org.springbootsecuritydemo.models.*;
 import com.it.mentor.org.springbootsecuritydemo.repositories.*;
 import org.springframework.beans.factory.annotation.*;
-import org.springframework.security.access.prepost.*;
 import org.springframework.security.crypto.password.*;
 import org.springframework.stereotype.*;
 import org.springframework.transaction.annotation.*;
