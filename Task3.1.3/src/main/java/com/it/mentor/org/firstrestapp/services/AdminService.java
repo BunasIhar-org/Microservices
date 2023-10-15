@@ -25,17 +25,14 @@ public class AdminService {
         this.passwordEncoder = passwordEncoder;
     }
 
-    @PreAuthorize("hasRole('ROLE_ADMIN')")
     public List<Person> findAll() {
         return peopleRepository.findAll();
     }
 
-    @PreAuthorize("hasRole('ROLE_ADMIN')")
     public Person findOne(Integer id) {
         return peopleRepository.findById(id).orElseThrow(PersonNotFoundException::new);
     }
 
-    @PreAuthorize("hasRole('ROLE_ADMIN')")
     public void savePerson(Person person) {
         person.setPassword(passwordEncoder.encode(person.getPassword()));
         person.setRoles(Collections.singleton(Role.ROLE_USER));
@@ -45,7 +42,6 @@ public class AdminService {
         peopleRepository.save(person);
     }
 
-    @PreAuthorize("hasRole('ROLE_ADMIN')")
     public void updatePerson(Person updatePerson, Integer id) {
         Person person = findOne(id);
         person.setUsername(updatePerson.getUsername());
@@ -55,7 +51,6 @@ public class AdminService {
         peopleRepository.save(person);
     }
 
-    @PreAuthorize("hasRole('ROLE_ADMIN')")
     public void deletePerson(Integer id) {
         Person person = findOne(id);
         peopleRepository.delete(person);
