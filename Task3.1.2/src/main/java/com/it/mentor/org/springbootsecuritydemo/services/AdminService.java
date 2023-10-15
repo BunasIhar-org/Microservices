@@ -23,17 +23,14 @@ public class AdminService {
         this.passwordEncoder = passwordEncoder;
     }
 
-    @PreAuthorize("hasRole('ROLE_ADMIN')")
     public List<Person> findAllPeople() {
         return peopleRepository.findAll();
     }
 
-    @PreAuthorize("hasRole('ROLE_ADMIN')")
     public Person findPersonById(Integer id) {
         return peopleRepository.findById(id).orElse(null);
     }
 
-    @PreAuthorize("hasRole('ROLE_ADMIN')")
     public void updatePerson(Person updatePerson) {
         Person person = findPersonById(updatePerson.getId());
         person.setUsername(updatePerson.getUsername());
@@ -43,7 +40,6 @@ public class AdminService {
         peopleRepository.save(person);
     }
 
-    @PreAuthorize("hasRole('ROLE_ADMIN')")
     public void deletePerson(Integer id) {
         peopleRepository.deleteById(id);
     }
