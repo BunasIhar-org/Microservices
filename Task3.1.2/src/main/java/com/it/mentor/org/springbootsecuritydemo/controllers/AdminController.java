@@ -12,6 +12,7 @@ import java.util.*;
 
 @Controller
 @RequestMapping("/admin")
+@PreAuthorize("hasRole('ROLE_ADMIN')")
 public class AdminController {
 
     private final AdminService adminService;
